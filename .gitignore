@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+tempCodeRunnerFile.python
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+*.egg-info/
+
+# VSCode
+.vscode/
+
+# Heavy dataset and scratch folders
+smartbin_project/dataset/
+smartbin_project/dataset_raw/
+smartbin_project/tmp_*/
+
+# Intermediate model checkpoints (keep final outputs only)
+smartbin_project/output/best_phase1.keras
+smartbin_project/output/best_phase2.keras
+smartbin_project/output/best_phase3.keras

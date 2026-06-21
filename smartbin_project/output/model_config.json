@@ -1,0 +1,10 @@
+{
+  "backbone": "mobilenet_v2",
+  "preprocess": "mobilenet_v2",
+  "img_size": 224,
+  "class_names": [
+    "glass_nonrecyclable",
+    "metal",
+    "plastic_paper"
+  ]
+}
